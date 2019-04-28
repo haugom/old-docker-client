@@ -14,7 +14,7 @@ Example:
 * add the `bin/qdocker.sh` script to your path as just `qdocker`
 
 ```
-docker build -t docker-client:1.12.2 .
+docker build -t docker-client:17.09.1 .
 export DOCKER_QNAP_HOST=tcp://192.168.1.10:2376
 export DOCKER_QNAP_CLIENT_CREDENTIALS=$HOME/.qnap-docker
 
@@ -26,7 +26,7 @@ etc.
 
 * I can now keep my normal docker-ce client up to date
 * I can use qdocker which runs old version to talk to container station on the qnap
-* the qdocker function will run container with version 1.12.2 of docker-engine client
+* the qdocker function will run container with version 17.09.1 of docker-ce client
 * certificates and key from qnap is mapped inside container
 * configure docker (inside container) to talk to your qnap over TLS.
 * current working directory is mapped into /workdir such that qdocker load and save works by reading/writing to your current working directory.

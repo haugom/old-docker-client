@@ -12,7 +12,7 @@ function qdocker_func() {
 	-e DOCKER_TLS_VERIFY=1 \
 	-it \
 	--rm \
-	docker-client:1.12.2 --tlscacert=/certs/ca.pem --tlscert=/certs/cert.pem --tlskey=/certs/key.pem --tlsverify=true $@
+	docker-client:17.09.1 --tlscacert=/certs/ca.pem --tlscert=/certs/cert.pem --tlskey=/certs/key.pem --tlsverify=true $@
 }
 
 qdocker_func "$@"
