@@ -3,7 +3,9 @@ Old docker-engine client
 
 I acquired a qnap nas device which happends to have build in support to run docker containers. I thought I would have to explore this.
 
-The problem is that the build in version uses docker 1.12.2 which is quite old.
+The problem is that the build in version uses docker 1.12.2 which was quite old.
+
+Now my qnap has been upgraded to 17.09.1 which is newer. I have not updated the examples below to reflect the newer version of docker on my qnap.
 
 I came up with the idea of installing docker-engine in a container and run that to talk
 to my qnap docker host.
